@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptado de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <!-- <div class="campo_Loga_a">
+        <img src="img/Logo_a.svg" class="Logo_a">
+    </div>   -->
+    
+</header>
+
+<body>
+
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+        </div>
+
+        <div class="terminos">
+            <p class="label_btn">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="btn">                
+            <button class="btnEncriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <button class="btnDescencriptar"type="button" onclick="desencriptar()">Desencriptar</button>
+        </div> 
+    
+
+    <div class="encriptado">
+        <img src="img/Muñeco.svg" id="muñeco">
+        <div class="mensaje-encriptado" id="mensaje-encriptado">
+            <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
+            <p>Ingresa texto que desea increptar o desencriptar</p>
+            <!-- <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+        </div>
+    </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
